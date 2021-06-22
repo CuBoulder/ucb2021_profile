@@ -1,0 +1,48 @@
+name: CU Boulder Install Profile
+type: profile
+description: 'CU Boulder Web Install Profile'
+core_version_requirement: '^8.8 || ^9'
+# Modules to install to support the profile.
+install:
+  - history
+  - automated_cron
+  - block_content
+  - breakpoint
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - quickedit
+  - help
+  - image
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - editor
+  - ckeditor
+  - webform
+  - webform_ui
+  - admin_toolbar
+  - admin_toolbar_tools
+# Required modules
+# Note that any dependencies of the modules listed here will be installed automatically.
+dependencies:
+  - node
+  - block
+  - views
+
+# List any themes that should be installed as part of the profile installation.
+# Note that this will not set any theme as the default theme.
+themes:
+  - ucb2021_base
+  - seven
