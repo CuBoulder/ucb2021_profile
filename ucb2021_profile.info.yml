@@ -13,6 +13,7 @@ install:
   - comment
   - contextual
   - contact
+  - menu_ui
   - quickedit
   - help
   - image
