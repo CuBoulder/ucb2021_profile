@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_info
+    - field.storage.block_content.field_footer_email
+id: block_content.site_info.field_footer_email
+field_name: field_footer_email
+entity_type: block_content
+bundle: site_info
+label: Email
+description: 'Enter the email for contacting this department'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

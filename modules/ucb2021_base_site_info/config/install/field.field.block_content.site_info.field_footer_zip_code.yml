@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_info
+    - field.storage.block_content.field_footer_zip_code
+id: block_content.site_info.field_footer_zip_code
+field_name: field_footer_zip_code
+entity_type: block_content
+bundle: site_info
+label: Building Zipcode
+description: 'Enter the zip code for this building'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 11111
+  max: 99999
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_info
+    - field.storage.block_content.field_footer_phone
+id: field.site_info_footer.field_footer_phone
+field_name: field_footer_phone
+entity_type: block_content
+bundle: site_info
+label: Phone Number
+description: 'Enter the phone number for this department'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

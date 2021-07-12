@@ -1,0 +1,65 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_info
+    - field.field.block_content.site_info.field_footer_address_1
+    - field.field.block_content.site_info.field_footer_address_2
+    - field.field.block_content.site_info.field_footer_email
+    - field.field.block_content.site_info.field_footer_fax
+    - field.field.block_content.site_info.field_footer_phone
+    - field.field.block_content.site_info.field_footer_zip_code
+id: block_content.site_info.default
+targetEntityType: block_content
+bundle: site_info
+mode: default
+content:
+  field_footer_address_1:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_footer_address_2:
+    type: string
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_footer_email:
+    type: basic_string
+    weight: 3
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_footer_fax:
+    type: string
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_footer_phone:
+    type: string
+    weight: 5
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_footer_zip_code:
+    type: number_integer
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+hidden: {  }

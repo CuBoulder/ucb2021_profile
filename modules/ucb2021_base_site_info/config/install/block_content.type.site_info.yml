@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: site_info
+label: 'Site Info Footer'
+revision: 0
+description: 'Block containing site information'
