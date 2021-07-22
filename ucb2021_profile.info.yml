@@ -35,6 +35,8 @@ install:
   - webform_ui
   - admin_toolbar
   - admin_toolbar_tools
+  - gin
+  - gin_toolbar
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
 dependencies:
@@ -46,4 +48,5 @@ dependencies:
 # Note that this will not set any theme as the default theme.
 themes:
   - ucb2021_base
-  - seven
+  - claro
+  - gin
