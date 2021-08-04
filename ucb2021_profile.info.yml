@@ -1,7 +1,7 @@
 name: CU Boulder Install Profile
 type: profile
-description: 'CU Boulder Web Install Profile'
-core_version_requirement: '^8.8 || ^9'
+description: "CU Boulder Web Install Profile"
+core_version_requirement: "^8.8 || ^9"
 # Modules to install to support the profile.
 install:
   - history
@@ -35,6 +35,7 @@ install:
   - webform_ui
   - admin_toolbar
   - admin_toolbar_tools
+  - gin_toolbar
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
 dependencies:
@@ -47,3 +48,4 @@ dependencies:
 themes:
   - ucb2021_base
   - seven
+  - gin
