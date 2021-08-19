@@ -36,6 +36,8 @@ install:
   - admin_toolbar
   - admin_toolbar_tools
   - gin_toolbar
+  - media
+  - media_library
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
 dependencies:
