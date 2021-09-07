@@ -19,6 +19,7 @@ install:
   - image
   - options
   - path
+  - pathauto
   - taxonomy
   - dblog
   - search
@@ -41,6 +42,7 @@ install:
   - paragraphs
   - field_group
   - twig_tweak
+  - telephone
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
 dependencies:
