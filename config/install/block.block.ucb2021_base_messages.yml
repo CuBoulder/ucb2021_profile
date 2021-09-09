@@ -7,8 +7,8 @@ dependencies:
     - ucb2021_base
 id: ucb2021_base_messages
 theme: ucb2021_base
-region: header
-weight: 0
+region: above_content
+weight: -3
 provider: null
 plugin: system_messages_block
 settings:
