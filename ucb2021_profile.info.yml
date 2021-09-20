@@ -13,6 +13,8 @@ install:
   - comment
   - contextual
   - contact
+  - embed
+  - entity_embed
   - menu_ui
   - quickedit
   - help
@@ -43,6 +45,7 @@ install:
   - field_group
   - twig_tweak
   - telephone
+  - ucb_shortcodes
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
 dependencies:

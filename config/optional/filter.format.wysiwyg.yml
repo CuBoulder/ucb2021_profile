@@ -1,0 +1,57 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_embed
+    - media
+    - ucb_shortcodes
+name: WYSIWYG
+format: wysiwyg
+weight: 0
+filters:
+  entity_embed:
+    id: entity_embed
+    provider: entity_embed
+    status: true
+    weight: 100
+    settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  media_embed:
+    id: media_embed
+    provider: media
+    status: true
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_media_types:
+        image: image
+        video: video
+      allowed_view_modes:
+        default: default
+  filter_ucb_shortcodes:
+    id: filter_ucb_shortcodes
+    provider: ucb_shortcodes
+    status: true
+    weight: 0
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <sup> <sub> <span class="fa-*"> <drupal-media data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <h1> <small> <p class="*"> <pre> <hr> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr>'
+      filter_html_help: true
+      filter_html_nofollow: true
