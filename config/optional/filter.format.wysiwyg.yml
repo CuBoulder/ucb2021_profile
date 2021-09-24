@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.media.editor_embed_image
   module:
     - editor
     - entity_embed
@@ -14,7 +16,7 @@ filters:
     id: entity_embed
     provider: entity_embed
     status: true
-    weight: -46
+    weight: -45
     settings: {  }
   filter_htmlcorrector:
     id: filter_htmlcorrector
@@ -26,14 +28,14 @@ filters:
     id: media_embed
     provider: media
     status: true
-    weight: -45
+    weight: -44
     settings:
-      default_view_mode: default
+      default_view_mode: editor_embed_image
       allowed_media_types:
         image: image
         video: video
       allowed_view_modes:
-        default: default
+        editor_embed_image: editor_embed_image
   filter_ucb_shortcodes:
     id: filter_ucb_shortcodes
     provider: ucb_shortcodes
@@ -60,7 +62,7 @@ filters:
     id: editor_file_reference
     provider: editor
     status: false
-    weight: -43
+    weight: -42
     settings: {  }
   filter_html_image_secure:
     id: filter_html_image_secure
@@ -77,8 +79,8 @@ filters:
   filter_align:
     id: filter_align
     provider: filter
-    status: false
-    weight: -42
+    status: true
+    weight: -46
     settings: {  }
   filter_caption:
     id: filter_caption
@@ -90,5 +92,5 @@ filters:
     id: filter_html_escape
     provider: filter
     status: false
-    weight: -44
+    weight: -43
     settings: {  }
