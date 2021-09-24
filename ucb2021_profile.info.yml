@@ -8,6 +8,7 @@ install:
   - automated_cron
   - block_content
   - breakpoint
+  - responsive_image
   - color
   - config
   - comment
