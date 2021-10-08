@@ -70,7 +70,7 @@ settings:
             - DrupalMediaLibrary
   plugins:
     stylescombo:
-      styles: "p.lead|Lead\r\np.hero|Hero\r\np.supersize|Supersize\r\nsmall|Small"
+      styles: "p.lead|Lead\r\np.hero|Hero\r\np.supersize|Supersize\r\nsmall|Small\r\nul.list-style-icon-1|Check List Style\r\nul.list-style-icon-2|Checkbox List Style\r\nul.list-style-icon-3|Double Angle List Style\r\nul.list-style-icon-4|Circle Arrow List Style\r\nul.list-style-icon-5|Star List Style\r\nul.list-style-icon-6|Finger List Style"
     language:
       language_list: un
 image_upload:
