@@ -18,6 +18,7 @@ install:
   - entity_embed
   - menu_ui
   - quickedit
+  - inline_form_errors
   - help
   - image
   - options
@@ -46,6 +47,8 @@ install:
   - field_group
   - twig_tweak
   - telephone
+  - serialization
+  - jsonapi
   - ucb_shortcodes
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
