@@ -46,7 +46,6 @@ install:
   - twig_tweak
   - telephone
   - ucb_shortcodes
-  - focal_point
   - crop
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
@@ -54,6 +53,7 @@ dependencies:
   - node
   - block
   - views
+  - focal_point
 
 # List any themes that should be installed as part of the profile installation.
 # Note that this will not set any theme as the default theme.
