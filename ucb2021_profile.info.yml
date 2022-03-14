@@ -17,7 +17,6 @@ install:
   - embed
   - entity_embed
   - menu_ui
-  - quickedit
   - help
   - image
   - options
@@ -47,6 +46,12 @@ install:
   - twig_tweak
   - telephone
   - ucb_shortcodes
+  - crop
+  - focal_point
+  - serialization
+  - jsonapi
+  - inline_form_errors
+  
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
 dependencies:
