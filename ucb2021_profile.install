@@ -44,7 +44,7 @@ function ucb2021_profile_install() {
   /**
    * Create inital users for the Web Team
    */
-  $users = ['brst4163', 'jesp3304', 'mibo7729', 'jeor0980', 'alco6164', 'sniderc'];
+  $users = ['brst4163', 'jesp3304', 'mibo7729', 'jeor0980', 'alco6164', 'sniderc', 'joni1621'];
   foreach( $users as $i ){
     User::create([
       'name' => $i,
