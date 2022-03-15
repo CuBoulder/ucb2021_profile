@@ -2,24 +2,24 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.media.focal_image_render
+    - core.entity_view_mode.media.editor_embed_image
     - field.field.media.image.field_media_image
     - field.field.media.image.field_media_image_caption
-    - image.style.focal_image
     - media.type.image
+    - responsive_image.styles.media_image_embed
   module:
-    - image
-id: media.image.focal_image_render
+    - responsive_image
+id: media.image.editor_embed_image
 targetEntityType: media
 bundle: image
-mode: focal_image_render
+mode: editor_embed_image
 content:
   field_media_image:
-    type: image
+    type: responsive_image
     label: hidden
     settings:
+      responsive_image_style: media_image_embed
       image_link: ''
-      image_style: focal_image
     third_party_settings: {  }
     weight: 0
     region: content
