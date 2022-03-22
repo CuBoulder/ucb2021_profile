@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: focal_image
+label: 'Focal Image'
+effects:
+  ca867d11-2e86-48c8-aa3e-a14a77016fbf:
+    uuid: ca867d11-2e86-48c8-aa3e-a14a77016fbf
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1290
+      height: 1290
+      crop_type: focal_point
+      upscale: no_upscale_crop
