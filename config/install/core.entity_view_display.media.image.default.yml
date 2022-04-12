@@ -8,6 +8,7 @@ dependencies:
     - media.type.image
   module:
     - image
+    - text
     - user
 id: media.image.default
 targetEntityType: media
@@ -25,7 +26,7 @@ content:
     weight: 0
     region: content
   field_media_image_caption:
-    type: basic_string
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
