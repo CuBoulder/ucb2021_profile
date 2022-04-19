@@ -54,4 +54,18 @@ function ucb2021_profile_install() {
       'roles' => 'developer'
     ])->enforceIsNew()->save();
   }
+
+  /**
+   * Create inital users for the UX Team
+   */
+  $users = ['linebarg', 'mortone', 'brokaw', 'wetu1300'];
+  foreach( $users as $i ){
+    User::create([
+      'name' => $i,
+      'mail' => "{$i}@colorado.edu",
+      'pass' => 'nextest',
+      'status' => 1,
+      'roles' => 'site_owner'
+    ])->enforceIsNew()->save();
+  }
 }
