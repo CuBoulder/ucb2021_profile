@@ -1,33 +1,7 @@
 uuid: b73eab74-409f-4f17-9f60-978a6afb263b
 langcode: en
 status: true
-dependencies:
-  config:
-    - filter.format.full_html
-    - filter.format.wysiwyg
-    - media.type.image
-    - media.type.video
-    - node.type.page
-    - node.type.ucb_article
-    - node.type.ucb_person
-    - taxonomy.vocabulary.byline
-    - taxonomy.vocabulary.category
-    - taxonomy.vocabulary.department
-    - taxonomy.vocabulary.tags
-    - taxonomy.vocabulary.ucb_person_job_type
-  module:
-    - contextual
-    - entity_reference_revisions
-    - filter
-    - media
-    - node
-    - paragraphs
-    - path
-    - shortcut
-    - system
-    - taxonomy
-    - toolbar
-    - webform
+dependencies: {  }
 _core:
   default_config_hash: 2RzYT579vLgXYiMUiPmCnVXH4mQUWks2LQGkLuP6-II
 id: site_owner
