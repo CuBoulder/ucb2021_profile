@@ -44,7 +44,7 @@ function ucb2021_profile_install() {
   /**
    * Create inital users for the Web Team
    */
-  $users = ['jesp3304', 'mibo7729', 'alco6164', 'joni1621', 'jako6198', 'crafts', 'linebarg', 'mortone', 'brokaw', 'wetu1300'];
+  $users = ['jesp3304', 'mibo7729', 'alco6164', 'joni1621', 'jako6198', 'crafts'];
   foreach( $users as $i ){
     User::create([
       'name' => $i,
@@ -52,6 +52,20 @@ function ucb2021_profile_install() {
       'pass' => 'nextest',
       'status' => 1,
       'roles' => 'developer'
+    ])->enforceIsNew()->save();
+  }
+
+  /**
+   * Create inital users for the UX Team
+   */
+  $users = ['linebarg', 'mortone', 'brokaw', 'wetu1300'];
+  foreach( $users as $i ){
+    User::create([
+      'name' => $i,
+      'mail' => "{$i}@colorado.edu",
+      'pass' => 'nextest',
+      'status' => 1,
+      'roles' => 'site_owner'
     ])->enforceIsNew()->save();
   }
 }

@@ -9,6 +9,7 @@ dependencies:
     - media.type.image
   module:
     - focal_point
+    - text
 id: media.image.media_library
 targetEntityType: media
 bundle: image
@@ -25,7 +26,7 @@ content:
       offsets: '50,50'
     third_party_settings: {  }
   field_media_image_caption:
-    type: string_textarea
+    type: text_textarea
     weight: 1
     region: content
     settings:
