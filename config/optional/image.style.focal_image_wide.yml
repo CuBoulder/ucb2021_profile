@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: focal_image_wide
+label: 'Focal Image Wide'
+effects:
+  716174fc-5c31-4f82-8e3d-b11fcc7bea65:
+    uuid: 716174fc-5c31-4f82-8e3d-b11fcc7bea65
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1290
+      height: 645
+      crop_type: focal_point
+      upscale: no_upscale_crop
