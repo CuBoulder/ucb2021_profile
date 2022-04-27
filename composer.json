@@ -2,5 +2,5 @@
     "name": "cu-boulder/ucb2021_profile",
     "description": "Drupal 9 base profile for CU Boulder",
     "license": "MIT",
-    "type": "drupal-profile"
+    "type": "drupal-custom-profile"
 }
