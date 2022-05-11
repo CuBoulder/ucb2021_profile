@@ -1,37 +1,42 @@
-uuid: 217ad3aa-10a8-46b2-b814-83845ef2372c
+uuid: c134e7b5-4135-43b9-9121-83e972afd5a6
 langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.full_html
+    - filter.format.wysiwyg
   module:
     - ckeditor5
-format: full_html
+format: wysiwyg
 editor: ckeditor5
 settings:
   toolbar:
     items:
       - bold
       - italic
-      - strikethrough
       - superscript
       - subscript
-      - removeFormat
       - '|'
-      - link
+      - alignment
+      - outdent
+      - indent
+      - blockQuote
       - '|'
       - bulletedList
       - numberedList
       - '|'
-      - blockQuote
+      - undo
+      - redo
+      - '|'
+      - link
       - drupalMedia
-      - insertTable
+      - '|'
       - horizontalLine
+      - specialCharacters
+      - insertTable
       - '|'
       - heading
-      - codeBlock
       - '|'
-      - sourceEditing
+      - removeFormat
   plugins:
     ckeditor5_heading:
       enabled_headings:
@@ -40,13 +45,11 @@ settings:
         - heading4
         - heading5
         - heading6
-    ckeditor5_sourceEditing:
-      allowed_tags: {  }
 image_upload:
-  status: true
+  status: false
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null
