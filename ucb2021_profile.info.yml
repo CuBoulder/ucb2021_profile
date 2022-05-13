@@ -33,6 +33,7 @@ install:
   - views_ui
   - editor
   - ckeditor
+  - ckeditor5
   - webform
   - webform_ui
   - admin_toolbar
@@ -44,7 +45,6 @@ install:
   - field_group
   - twig_tweak
   - telephone
-  - ucb_shortcodes
   - crop
   - focal_point
   - serialization
