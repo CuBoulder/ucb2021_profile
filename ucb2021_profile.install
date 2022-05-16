@@ -58,7 +58,7 @@ function ucb2021_profile_install() {
   /**
    * Create inital users for the UX Team
    */
-  $users = ['linebarg', 'mortone', 'brokaw', 'wetu1300'];
+  $users = ['linebarg', 'mortone', 'brokaw', 'wetu1300', 'fraziere'];
   foreach( $users as $i ){
     User::create([
       'name' => $i,
