@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.focal_image_wide_render
+    - field.field.media.image.field_media_image
+    - field.field.media.image.field_media_image_caption
+    - image.style.focal_image_wide
+    - media.type.image
+  module:
+    - image
+id: media.image.focal_image_wide_render
+targetEntityType: media
+bundle: image
+mode: focal_image_wide_render
+content:
+  field_media_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: focal_image_wide
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_image_caption: true
+  name: true
+  thumbnail: true
+  uid: true
