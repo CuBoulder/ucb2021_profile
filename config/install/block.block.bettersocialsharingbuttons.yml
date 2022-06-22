@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - better_social_sharing_buttons
+  theme:
+    - ucb2021_base
+id: bettersocialsharingbuttons
+theme: ucb2021_base
+region: social_share
+weight: 0
+provider: null
+plugin: social_sharing_buttons_block
+settings:
+  id: social_sharing_buttons_block
+  label: 'Better Social Sharing Buttons'
+  label_display: '0'
+  provider: better_social_sharing_buttons
+  services:
+    facebook: facebook
+    twitter: twitter
+    email: email
+    linkedin: linkedin
+    whatsapp: 0
+    facebook_messenger: 0
+    pinterest: 0
+    digg: 0
+    stumbleupon: 0
+    slashdot: 0
+    tumblr: 0
+    reddit: 0
+    evernote: 0
+    print: 0
+    copy: 0
+  iconset: social-icons--square
+  facebook_app_id: ''
+  print_css: ''
+  width: 48px
+  radius: 0px
+visibility: {  }
