@@ -54,6 +54,10 @@ install:
   - externalauth
   - config_update
   - features
+  - consumer_image_styles
+  - jsonapi_extras
+  - consumers
+  - system
   
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
