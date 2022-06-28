@@ -52,6 +52,9 @@ install:
   - inline_form_errors
   - simplesamlphp_auth
   - externalauth
+  - config_update
+  - features
+  - better_social_sharing_buttons
   
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
