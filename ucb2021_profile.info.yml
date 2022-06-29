@@ -54,6 +54,7 @@ install:
   - externalauth
   - config_update
   - features
+  - ucb_site_contact_info
   - better_social_sharing_buttons
   
 # Required modules
