@@ -54,6 +54,9 @@ install:
   - externalauth
   - config_update
   - features
+  - jsonapi_extras
+  - consumers
+  - consumer_image_styles
   - better_social_sharing_buttons
   
 # Required modules
