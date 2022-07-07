@@ -58,6 +58,7 @@ install:
   - jsonapi_extras
   - consumers
   - system
+  - better_social_sharing_buttons
   
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
