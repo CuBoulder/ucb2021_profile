@@ -40,12 +40,13 @@ function ucb2021_profile_modules_installed( $modules ){
       'ucb_site_contact_info',
       'ucb_custom_paragraphs',
       'ucb_custom_page_types',
-      'ucb_default_content'
+      'ucb_default_content',
+      'ucb_focal_image_enable'
     ]);
     \Drupal::logger('ucb2021_profile')->notice('Installed CU Site Contact Info');
     \Drupal::logger('ucb2021_profile')->notice('Installed CU Custom Paragraph Types');
     \Drupal::logger('ucb2021_profile')->notice('Installed CU Custom Page Types');
     \Drupal::logger('ucb2021_profile')->notice('Installed CU Default Content');
-    
+    \Drupal::logger('ucb2021_profile')->notice('Installed CU Focal Image Enable');
   }
 }
