@@ -1,9 +1,0 @@
-name: 'Site Info Footer Block'
-description: 'Block to provide site information in the footer'
-hidden: true
-core_version_requirement: ^8.8 || ^9
-type: module
-dependencies:
-  - block
-  - block_content
-  - field
