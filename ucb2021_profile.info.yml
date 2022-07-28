@@ -59,6 +59,7 @@ install:
   - consumers
   - system
   - better_social_sharing_buttons
+  - ucb_site_configuration
   
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
