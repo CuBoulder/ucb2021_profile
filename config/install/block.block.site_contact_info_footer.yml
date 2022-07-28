@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   module:
-    - ucb_site_contact_info
   theme:
     - ucb2021_base
 id: site_contact_info_footer
@@ -15,5 +14,4 @@ settings:
   id: site_info
   label: 'Site Contact Info Footer'
   label_display: visible
-  provider: ucb_site_contact_info
 visibility: {  }

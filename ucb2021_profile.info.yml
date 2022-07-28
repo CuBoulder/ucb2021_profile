@@ -54,7 +54,6 @@ install:
   - externalauth
   - config_update
   - features
-  - ucb_site_contact_info
   - consumer_image_styles
   - jsonapi_extras
   - consumers
